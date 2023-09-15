@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootsrtap Practice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+  
+        <!-- For Navigation -->
+       <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold text-white " href="#"> 💻 Activity-7</a>
+          <button class="navbar-toggler bg-white"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+
+          <div class="collapse navbar-collapse " id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+              <!-- line -->
+              <li class="nav-item">
+                <a class="nav-link active text-white fw-bold" aria-current="page" href="#">🔘 Home</a>
+              </li>
+              <!-- line -->
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">🔎About</a>
+              </li>
+              <!-- line -->
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#services">🏢Services</a>
+              </li>
+              <!-- line -->
+              <li class="nav-item">
+                <a class="nav-link text-white " href="#contact">📲Contact</a>
+              </li>
+
+             
+            </ul>
+          </div>
+        </div>
+       </nav>
+    
+        <!-- Hero Section -->
+        <header class="container-fluid">
+            <div  data-aos="fade-up"
+            data-aos-duration="3000" class="row">
+                <div class=" col-med-6 p-5">
+                    <h1 class="header-con display-1 fw-bold">Become a Web Developer.</h1>
+                    <p class="header-con">One day or day one? you decide.</p>
+            <!-- button-->
+                    <br>
+                <div class="header-con">
+                    <button class=" btn btn-dark fw-bold">Enroll now!</button>
+                <div class="col-m-6">
+            <!-- image -->
+                    <img class="img-fluid" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=684,h=456,fit=crop/mv0kzkG4KGH5Or7g/group-30-A1agEL7lobC553OP.png" alt="Programming image">
+                </div>
+                </div>
+                    <br> 
+                </div>  
+                </div>
+                </div> 
+                </div>
+            </div>
+        </header>
+
+        <!-- about text -->
+        <div id="about">
+            <h1 class="display-1 fw-bold text-center m-5">What is web development?</h1>
+
+            <p class="display-6 text-center m-5">As a web developer, you'll use tools like HTML, CSS, Javascript, and React to build everything from static websites to dynamic web applications.</p>
+        </div>
+
+        <!-- Main start of carousel -->
+        <div class="container-carousel">
+
+             <!-- Main start of carousel -->
+          
+        <main data-aos="flip-left">
+        
+            <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <!--  -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+               <section id="css-text">
+                <img src="https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" class="d-block w-100" alt="HTML">
+                <h5 class="fw-bold">CSS</h5>
+                <p class="fw-bold">CSS is the language we use to style a Web page.</p>
+             </section>
+              </div>
+              <!--  -->
+              <div class="carousel-item">
+               <section id="html-text">
+                <img src="https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="d-block w-100" alt="CSS">
+                <h5 class="fw-bold">HTML</h5>
+                <p class="fw-bold">HTML is the standard markup language for creating Web pages.</p>
+               </section>  
+              </div>
+              </div>
+              <!--  -->
+    
+              <div class="carousel-item">
+                <section id="js-text">
+                <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8amF2YXNjcmlwdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="Javascript">
+                <h5 class="fw-bold">Javascript</h5>
+                <p class="fw-bold">JavaScript is the Programming Language for the Web.</p>
+               </section>
+             </div>
+              <!--  -->
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+              <!--  -->
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true">
+            </span>
+            <span class="visually-hidden">Next</span>
+            </button>
+            
+        </div>
+        </div>
+        </main>   
+        </div>
+        <hr> 
+        <!-- start of card -->
+        <section id="services" class="container">
+            <h2 class="section-title pb-5 text-center">Services</h2>
+            <div class="row gx-5 gy-5 mb-5 aos-init aos-animate" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+                 <!-- line -->
+                 <div class="col-md-4">
+                    <div class="card">
+                      <img src="https://media.istockphoto.com/id/1413514596/photo/stylized-3d-css-icon-design.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=AO7LVxgIs-flkGxxQFXbTD6H3HLfNyq07zf8Riiu6sM=" class="card-img-top" alt="HTML Logo">
+                      <div class="card-body">
+                        <h5 class="card-title">CSS</h5>
+                        <p class="card-text">CSS is the language we use to style an HTML document.</p>
+                      </div>
+                      <div class="card-body">
+                        <a href="https://www.w3schools.com/css/default.asp" class="btn btn-primary" target="_blank">
+                         Reference
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+               <!-- line -->
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="https://media.istockphoto.com/id/1413514774/photo/stylized-3d-html-icon-design.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=-TU7szSFBZ7NfmiHQ7_3G7BUo5CYhqemTEtP_PGMntU=" class="card-img-top" alt="HTML Logo">
+                  <div class="card-body">
+                    <h5 class="card-title">HTML</h5>
+                    <p class="card-text">HTML is the standard markup language for Web pages.</p>
+                  </div>
+                  <div class="card-body">
+                    <a href="https://www.w3schools.com/html/default.asp" class="btn btn-primary" target="_blank">
+                      Reference
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+               <!-- line -->
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="data:image/png;base64,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" class="card-img-top" alt="HTML Logo">
+                  <div class="card-body">
+                    <h5 class="card-title">JavaScript</h5>
+                    <p class="card-text">JavaScript is the programming language of the Web..</p>
+                  </div>
+                  <div class="card-body">
+                    <a href="https://www.w3schools.com/js/default.asp" class="btn btn-primary" target="_blank">
+                      Reference
+                    </a>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <!-- contact section -->
+        <section id="contact" class="container">
+            <h2 class="text-center section-title pb-4">Contact Us</h2>
+            <form>
+              <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                  <label for="first_name" class="form-label fw-bold">First Name</label>
+                  <input type="text" class="form-control" id="first_name" name="first_name" placeholder="ex. John " required>
+                </div>
+                <div class="col-md-6">
+                  <label for="last_name" class="form-label fw-bold">Last Name</label>
+                  <input type="text" class="form-control" id="last_name" name="last_name" placeholder="ex. Doe" required>
+                </div>
+              </div>
+              <div class="row g-3 mb-4">
+                <div class="col-md-12">
+                  <label for="email" class="form-label fw-bold">Email Address</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="ex. name@gmailcom" required >
+                </div>
+              </div>
+              <div class="row g-3 mb-4">
+                <div class="col-md-12">
+                  <label for="message" class="form-label fw-bold">Message</label>
+                  <textarea class="form-control" id="message" name="message" placeholder="Feedback area.." rows="3" required=""></textarea>
+                </div>
+              </div>
+              <div class="d-grid gap-2 col-md-4 mx-auto">
+                <button class="btn btn-dark" type="button">Proceed</button>
+              </div>
+            </form>
+          </section>
+          <br>
+          <br>
+          <!-- footer -->
+          <footer>
+            <div class=" text-white bg-dark p-2">
+              Copyright 2023 ©Cyrille Evan Isayas. All rights reserved.
+            </div>
+          </footer>
+          <!-- end of footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--  -->
+    <script> AOS.init(); </script>
+    <!--  -->
+   
+</body>
+</html>

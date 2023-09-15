@@ -1,0 +1,16 @@
+.header-con{
+ text-align: center;
+ 
+}
+#css-text{
+    text-align: center;
+    flex-wrap: wrap; 
+}
+#html-text{
+    text-align: center;
+    flex-wrap: wrap; 
+}
+#js-text{
+    text-align: center;
+    flex-wrap: wrap; 
+}
